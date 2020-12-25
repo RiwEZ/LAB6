@@ -3,6 +3,11 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
+	if (int(x) >= 97 or x == '0') return '0';
+
+	if (x == 'A') return x + 25;
+
+	return x - 1;
 }
 
 int main(){
