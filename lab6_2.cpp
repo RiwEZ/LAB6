@@ -45,7 +45,7 @@ int main() {
     cout << name << ": ";
     getline(cin, day);
 
-    cout << "Fahsai: " << day << "....that is OK!!! I'm looking forward to watching " << movie << " with you." << endl;
+    cout << "Fahsai: " << day << "....that is OK!!! I'm looking forward to watching " << movie << " with you.\n";
     cout << name << ": ";
     getline(cin, randspeak);
     cout << "Fahsai: 555+ see you " << day << ". Bye Bye \\(^ ^)/";
